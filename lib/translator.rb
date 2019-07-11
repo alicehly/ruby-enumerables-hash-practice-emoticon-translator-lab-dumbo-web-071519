@@ -3,7 +3,7 @@ require 'yaml'
 
 def load_library(libary)
     emoticon=yaml.load_file('/lib/emoticons.yml')
-  hash={}
+  hash={hash.new}
   put library.inspect
 end
 
