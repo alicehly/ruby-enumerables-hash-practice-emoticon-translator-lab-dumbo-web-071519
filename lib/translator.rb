@@ -6,7 +6,7 @@ def load_library(libary)
   hash=hash.new
   hash[get_emoticon]=hash.new
   hash[get_def]-hash.new
-
+emoticons.each do |english, original|
 end
 
 def get_japanese_emoticon
