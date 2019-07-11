@@ -19,7 +19,12 @@ require 'pry'
 end
 
 def get_japanese_emoticon
-  
+  emoticon_hash = load_library(library)
+  result = emoticon_hash["get_emoticon"][emote]
+  if result == nil 
+    result = "Sorry, that emoticon was not found"
+  end 
+result
 end
 
 def get_english_meaning
