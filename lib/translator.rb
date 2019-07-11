@@ -4,7 +4,7 @@ require 'yaml'
 def load_library(libary)
     emoticon=yaml.load_file('/lib/emoticons.yml')
   hash=hash.new
-  hash[new_emoticon]=hash.new
+  hash[get_emoticon]=hash.new
 
 end
 
