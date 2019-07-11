@@ -8,6 +8,14 @@ def load_library(libary)
   hash[get_def]-hash.new
   
 emoticons.each do |english, original|
+  
+  hash["get_emoticon"][original.first]= original.last
+  hash["get_meaning"][original.last] = english
+end 
+hash
+end
+require 'yaml'
+require 'pry'
 end
 
 def get_japanese_emoticon
